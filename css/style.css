@@ -5,6 +5,8 @@
   align-items: center;
   height: 10px;
   float: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 ul {
@@ -28,6 +30,9 @@ li a:hover {
 
 
 
+.download {
+  width: 300px;
+}
 
 button {
   background-color: #dab442;
@@ -62,16 +67,16 @@ button:hover {
 
 
 
+.name {
+  font-family: "Megrim", sans-serif;
+  font-size: 92px;
+}
 
-.body {
+.description {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
 }
 
-.header1 {
-  font-family: "Megrim", sans-serif;
-  font-size: 92px;
-}
 
 
 
@@ -82,9 +87,10 @@ footer {
   height: 100px;
   margin: 0px;
   padding: 0;
-  position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .list2 {
@@ -94,13 +100,15 @@ footer {
   align-items: center;
   height: 10px;
   float: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .bottom a {
   color: white;
 }
 
-.bottomButton {
+.get-in-touch {
   width: 100px;
   color: white;
 }
