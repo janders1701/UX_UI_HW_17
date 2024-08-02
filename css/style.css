@@ -40,7 +40,6 @@ button {
   border-radius: 100px;
   width: 235px;
   height: 35px;
-  align-items: center;
 }
 
 button a {
@@ -65,16 +64,16 @@ button:hover {
 
 
 
-
-
 .name {
   font-family: "Megrim", sans-serif;
   font-size: 92px;
+  text-align: center;
 }
 
 .description {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
+  text-align: center;
 }
 
 
