@@ -60,8 +60,17 @@ button:hover {
   float: right;
   position: relative;
   top: -150px;
+  left: -55px;
   padding: 50px;
   z-index: 0;
+}
+
+#wings {
+  display: block;
+  float: right;
+  position: relative;
+  top: -200px;
+  right: -800px;
 }
 
 
@@ -106,12 +115,10 @@ button:hover {
 footer {
   background-color: #535353;
   height: 100px;
-  margin: 0px;
-  padding: 0;
-  bottom: 0;
   width: 100%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .list2 {
@@ -119,7 +126,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10px;
   float: left;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
