@@ -62,6 +62,15 @@ li a:hover {
   z-index: 0;
 }
 
+#wings {
+  display: block;
+  float: right;
+  position: relative;
+  top: -200px;
+  right: -800px;
+}
+
+
 
 
 .name {
@@ -141,6 +150,7 @@ footer {
   width: 100%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .list2 {
